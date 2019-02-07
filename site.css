@@ -1,0 +1,184 @@
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: azure;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: brown;
+	color: #FFF;
+	padding: 25px;
+	border: 5px solid black;
+	font-size: 60px;
+    border-radius: 5px;
+    position: relative;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.citacao-bio {
+	background-color: burlywood;
+	border: 5px solid black;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+    float: right;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 5px;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+    height: 705px;
+        width: 65px;
+    display: inline-block;
+    float: left;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: fixed;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+text-align: center;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+ text-transform: lowercase;
+}
+
+.navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
+
+.github {
+    background-image: url(github.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+} 
+
+
+
+.twitter {
+    background-image: url(twitter.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+} 
+
+
+.linkedin {
+    background-image: url(linkedin.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+} 
+
+#gui { 
+font-size: 15px;
+}
+
+li a {
+ margin: 5px;
+}
+
+#contato {
+    color: aquamarine;
+}
+
+.titulo-principal { 
+}
+
+main {
+    display: flex;
+}
+#texto {
+    display: none;
+}
+
+#conheça { float: left;
+    position: absolute;
+    text-align: right;
+    font-size: 40px;
+    top: 60px;
+    cursor: pointer;
+  color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+   padding-left: 5px;
+    padding-right: 5px;
+    background-color: burlywood;
+    left: 10px;
+}
